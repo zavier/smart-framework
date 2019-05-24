@@ -1,6 +1,5 @@
 package org.smart4j.framework.util;
 
-import com.sun.org.apache.bcel.internal.util.ClassSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

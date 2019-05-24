@@ -1,6 +1,5 @@
 package org.smart4j.framework.helper;
 
-import com.sun.org.apache.regexp.internal.RE;
 import org.smart4j.framework.annotation.Action;
 import org.smart4j.framework.bean.Handler;
 import org.smart4j.framework.bean.Request;
