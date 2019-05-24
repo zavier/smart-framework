@@ -38,11 +38,13 @@ public final class BeanHelper {
      * @param <T>
      * @return
      */
+    @SuppressWarnings("unchecked")
     public static <T> T getBean(Class<T> cls) {
         if (!BEAN_MAP.containsKey(cls)) {
             throw new RuntimeException("can not get bean by class:" + cls);
         }
-        return (T) BEAN_MAP.get(cls);
+        Object o = BEAN_MAP.get(cls);
+        return (T) o;
     }
 
     public static void setBean(Class<?> cls, Object obj) {
